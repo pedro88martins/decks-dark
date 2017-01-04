@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="brand_primary">@color/turquoise_fc</color>
+    <color name="brand_primary_dark">@color/turquoise_fc</color>
+    <color name="brand_primary_pressed">@color/turquoise_fc_pressed</color>
+    <color name="brand_primary_disabled">@color/turquoise_fc_disabled</color>
+    <color name="brand_primary_focused">@color/turquoise_fc_focused</color>
+
+    <color name="brand_secondary">@color/hot_pink_fc</color>
+    <color name="brand_secondary_pressed">@color/hot_pink_fc_pressed</color>
+    <color name="brand_secondary_disabled">@color/hot_pink_fc_disabled</color>
+    <color name="brand_secondary_focused">@color/hot_pink_fc_focused</color>
+
+    <color name="brand_accent">@color/turquoise_fc</color>
+
+    <color name="brand_tertiary">@color/hot_pink_fc</color>
+    <color name="brand_tertiary_pressed">@color/hot_pink_fc_pressed</color>
+    <color name="brand_tertiary_disabled">@color/hot_pink_fc_disabled</color>
+    <color name="brand_tertiary_focused">@color/hot_pink_fc_focused</color>
+
+    <color name="dark_image_tint">#51000000</color>
+    <color name="dark_image_tint_select">#20000000</color>
+
+    <color name="tint_orange">#ccff8800</color>
+    <color name="tint_orange_40">#66ff8800</color>
+    <color name="tint_dark_grey">#ba585858</color>
+    <color name="tint_black_40">#66000000</color>
+    <color name="tint_black_20">#33000000</color>
+    <color name="tint_white_40">#66FFFFFF</color>
+    <color name="tint_white_80">#CCFFFFFF</color>
+</resources>

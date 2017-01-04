@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Branding colours -->
+    <color name="light_blue">#70cbf4</color>
+    <color name="light_blue_dark">#6aa9d8</color>
+    <color name="dark_blue">#3a557e</color>
+    <color name="orange_mt">#ffaa00</color>
+    <color name="orange_be">#ffaa00</color>
+    <color name="green_no">#a0c800</color>
+    <color name="turquoise_fc">#54c3cc</color>
+    <color name="hot_pink_fc">#e5096e</color>
+    <color name="hot_pink_fc_dark">#AE074E</color>
+    <color name="grey_blue">#5c7491</color>
+    <color name="red">#ef0000</color>
+    <color name="dark_grey">#585858</color>
+    <color name="medium_grey">#949494</color>
+    <color name="medium_light_grey">#c7c7c7</color>
+    <color name="light_grey">#f0f0f0</color> <!--light_grey1 -->
+    <color name="bg_grey">#eaeaea</color> <!--light_grey2 -->
+    <color name="green">#287126</color>
+    <color name="yellow">#FFAA02</color>
+
+    <!-- Other colours -->
+    <color name="toolbarTitleColor">@color/white</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="gray_material_design">#757575</color>
+    <color name="very_light_gray">#CDCDCD</color>
+    <color name="twelve_percent_black_gray">#1f000000</color>
+    <color name="very_light_gray_btn">#EEEEEE</color>
+    <color name="wild_sand">#F5F5F5</color>
+    <color name="zircon">#E0E0E0</color>
+    <color name="bg_grey_transparent_85">#d9eaeaea</color>
+    <color name="white_transparent">#33FFFFFF</color>
+    <color name="transparent_dark_grey">#4d585858</color>
+    <color name="translucent_white">#80FFFFFF</color>
+</resources>
