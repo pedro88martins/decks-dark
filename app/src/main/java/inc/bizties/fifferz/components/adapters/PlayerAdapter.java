@@ -70,7 +70,7 @@ public class PlayerAdapter extends RecyclerView.Adapter<PlayerViewHolder> {
         int score = collection.get(position).getScore() + 3;
         collection.get(position).setScore(score);
         Collections.sort(collection, new TableComparator());
-        notifyDataSetChanged();
+        notifyItemChanged(position);
     }
 
     public void subtractPoints(int position) {
@@ -78,7 +78,7 @@ public class PlayerAdapter extends RecyclerView.Adapter<PlayerViewHolder> {
         if (score >= 0) {
             collection.get(position).setScore(score);
             Collections.sort(collection, new TableComparator());
-            notifyDataSetChanged();
+            notifyItemChanged(position);
         }
     }
 

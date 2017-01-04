@@ -128,7 +128,7 @@ public class FifferzFragment extends BasePresenterFragment<FifferzFragmentPresen
                 String playerName = name.getText().toString();
                 int playerScore = Integer.parseInt(score.getText().toString());
                 Player toUpdate = new Player(playerId, playerName, playerScore);
-                getPresenter().addPlayer(toUpdate);
+                getPresenter().updatePlayer(toUpdate);
             }
         });
 
@@ -142,11 +142,13 @@ public class FifferzFragment extends BasePresenterFragment<FifferzFragmentPresen
     @Override
     public void onAddPoints(int position) {
         adapter.addPoints(position);
+        getPresenter().updatePlayer(adapter.getItem(position));
     }
 
     @Override
     public void onSubtractPoints(int position) {
         adapter.subtractPoints(position);
+        getPresenter().updatePlayer(adapter.getItem(position));
     }
 
     @Override
